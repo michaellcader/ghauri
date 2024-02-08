@@ -56,7 +56,7 @@ class GhauriConfigs:
         backend=None,
         batch=False,
         continue_on_http_error=False,
-        follow_redirects=None,
+        follow_redirects=False,
         threads=None,
     ):
         self.vectors = vectors
